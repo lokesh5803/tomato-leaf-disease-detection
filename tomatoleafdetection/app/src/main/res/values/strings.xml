@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">tomatoleafdetection</string>
+    <string name="login">Login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="register_text">Do not have an account? Sign up</string>
+    <string name="logo_description">Tomato Logo</string>
+    <string name="home">Home</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="submit">Submit</string>
+    <string name="name_hint">Name</string>
+    <string name="message_hint">Message</string>
+    <string name="inquiries">For inquiries, contact us at: info@tomify.com</string>
+
+</resources>

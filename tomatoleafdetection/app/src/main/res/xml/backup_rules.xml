@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Sample backup rules file; uncomment and customize as necessary.
+   See https://developer.android.com/guide/topics/data/autobackup
+   for details.
+   Note: This file is ignored for devices older than API 31.
+   See https://developer.android.com/about/versions/12/backup-restore
+-->
+<full-backup-content>
+    <!-- Include shared preferences in the backup -->
+    <!-- Uncomment the line below to include all shared preferences -->
+    <!-- <include domain="sharedpref" path="."/> -->
+
+    <!-- Exclude specific shared preference files from the backup -->
+    <!-- Uncomment the line below to exclude 'device.xml' from shared preferences -->
+    <!-- <exclude domain="sharedpref" path="device.xml"/> -->
+
+    <!-- Example to include all files in the app's files directory -->
+    <include domain="file" path="." />
+
+    <!-- Example to exclude specific directories or files from the backup -->
+    <exclude domain="file" path="cache/"/> <!-- Exclude cache directory -->
+    <!-- <exclude domain="file" path="temp/"/> --> <!-- Example: Exclude temporary files -->
+</full-backup-content>

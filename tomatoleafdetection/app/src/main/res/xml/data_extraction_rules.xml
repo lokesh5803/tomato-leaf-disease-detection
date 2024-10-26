@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Include specific directories or files for backup -->
+        <include domain="file" path="." />  <!-- This includes everything in the app's files directory -->
+
+    </cloud-backup>
+
+
+    <exclude domain="file" path="temporary/"/>
+</data-extraction-rules>
+
